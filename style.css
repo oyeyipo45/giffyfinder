@@ -2,12 +2,22 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: .5rem;
 }
 
+
+
 #inputField{
-   margin-right: .3rem; 
+   margin-right: .3rem;
+   width: 6rem;
 }
 
 #imagesHolder{
-    height: 30rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#Search{
+    width: 4rem;
+    margin-right: .5rem;
 }
