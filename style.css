@@ -1,15 +1,19 @@
+body{
+    background-color: black;
+}
+
 #whole{
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin-bottom: .5rem;
+    
 }
-
-
 
 #inputField{
    margin-right: .3rem;
    width: 6rem;
+   color: black;
 }
 
 #imagesHolder{
@@ -17,7 +21,16 @@
     align-items: center;
 }
 
-#Search{
+#searchButton{
     width: 4rem;
     margin-right: .5rem;
+    background-color: chocolate;
+    color: white;
+}
+
+#resetButton{
+    width: 4rem;
+    margin-right: .5rem;
+    background-color: chocolate;
+    color: white;
 }

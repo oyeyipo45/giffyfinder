@@ -1,6 +1,6 @@
 let input = document.getElementById("inputField");
 let imagesHolder = document.getElementById("imagesHolder");
-let search = document.getElementById("Search"); 
+let search = document.getElementById("searchButton"); 
 
 
 const findGiffy = () => {
@@ -29,7 +29,7 @@ let resetButton  = () => {
     input.value = " ";
 }
 
-let reset = document.getElementById("button");
+let reset = document.getElementById("resetButton");
 reset.addEventListener("click", resetButton);
 search.addEventListener("click", findGiffy);
 
