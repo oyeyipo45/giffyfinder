@@ -22,11 +22,10 @@ const findGiffy = () => {
 }; 
 
 
-// input.onkeypress = findGiffy;
-
 let resetButton  = () => {
     let input = document.getElementById("inputField");
-    input.value = " ";
+    location.reload(input.value = " ");
+    console.log("good");
 }
 
 let reset = document.getElementById("resetButton");
