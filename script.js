@@ -12,7 +12,7 @@ const findGiffy = () => {
         console.log(result, "result"); 
         result.data.forEach(function(dami) { 
             let img = document.createElement("img");
-            img.width = 350;
+            img.width = 375;
             img.height = 300;
             img.src = dami.images.downsized.url;
             imagesHolder.appendChild(img);
