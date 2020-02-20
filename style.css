@@ -1,0 +1,13 @@
+#whole{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#inputField{
+   margin-right: .3rem; 
+}
+
+#imagesHolder{
+    height: 30rem;
+}
